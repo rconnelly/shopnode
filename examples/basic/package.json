@@ -1,0 +1,12 @@
+{
+  "author": "Ryan Connelly <ryan@quad.io>",
+  "name": "basic",
+  "version": "0.0.1",
+  "main": "basic.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

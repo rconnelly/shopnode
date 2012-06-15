@@ -1,4 +1,5 @@
-# nodejify (pronounced like "notify" with a "juh" sound instead of "t")
+# nodejify
+__(pronounced like "notify" with a "juh" sound instead of "t")__
 
 nodejify provides a complete, well-documented library for communicating with the powerful
 shopping cart platform shopify. I needed

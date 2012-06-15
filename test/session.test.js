@@ -1,7 +1,7 @@
-var Session = require('session.js');
+var Session = require('nodejify');
 
-vows.describe('session').addBatch({
-    'A session': {
+vows.describe('nodejify').addBatch({
+    'A nodejify session': {
         'with default parameters': {
             topic: new Session(),
             'uses ssl': function(s)

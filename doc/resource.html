@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head><title>resource</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="resource"><meta name="groc-project-path" content="lib/resource.js"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">lib/resource.js</div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="cm">/**</span>
+<span class="cm"> * Module dependencies.</span>
+<span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">restify</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;restify&#39;</span><span class="p">);</span>
+
+<span class="cm">/**</span>
+<span class="cm"> * Resource constructor. This class supports the basic behavior of all rest</span>
+<span class="cm"> * calls (blog, product, order, etc)</span>
+<span class="cm"> * It uses the restify client behind the scenes to provide</span>
+<span class="cm"> * high-performance, well-designed</span>
+<span class="cm"> * rest support. As such, the options are the same as restify&#39;s.</span>
+<span class="cm"> *</span>
+<span class="cm"> * Tacks in the following headers automatically:</span>
+<span class="cm"> *</span>
+<span class="cm"> * - Date</span>
+<span class="cm"> * - Accept: application/json</span>
+<span class="cm"> *</span>
+<span class="cm"> * On data:</span>
+<span class="cm"> * - Content-Type: application/json</span>
+<span class="cm"> * - Content-Length</span>
+<span class="cm"> * - Content-MD5</span>
+<span class="cm"> *</span>
+<span class="cm"> * @param {Object} options the usual pattern with:</span>
+<span class="cm"> *   - url: base url to communicate with (required).</span>
+<span class="cm"> *   - path: HTTP Resource (default: &#39;/&#39; || path from url).</span>
+<span class="cm"> *   - headers: Any additional HTTP headers to send on all requests.</span>
+<span class="cm"> *   - contentType: one of the supported serialization formats, which is</span>
+<span class="cm"> *       either `application/json` or application/x-www-form-urlencoded. Default</span>
+<span class="cm"> *       is JSON.</span>
+<span class="cm"> *   - version: Default version to use in x-api-version (optional).</span>
+<span class="cm"> *   - retryOptions: options to pass to node-retry. Defaults to 3 retries after</span>
+<span class="cm"> *       a 500ms wait.</span>
+<span class="cm"> *   - noContentMD5: skip content-md5 checking.</span>
+<span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">Resource</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">Resource</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">client</span> <span class="o">=</span> <span class="nx">restify</span><span class="p">.</span><span class="nx">createJsonClient</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+<span class="p">};</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">Resource</span><span class="p">;</span></div></div></div></div></body></html>
