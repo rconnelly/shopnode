@@ -6,7 +6,7 @@ vows.describe('session').addBatch({
             topic: new Session(),
             'uses ssl': function(s)
             {
-                s.
+
             }
         }
     }}).export(module);
