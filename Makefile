@@ -1,7 +1,8 @@
 ALL_TESTS = $(shell find test/ -name '*.test.js') 
+VOWS = ./node_modules/vows/bin/vows
 
 run-tests:
-	@vows --spec
+	@$(VOWS) --spec
 
 test:
 	@$(MAKE) NODE_PATH=lib TESTS="$(ALL_TESTS)" run-tests
