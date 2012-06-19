@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en"><head><title>resourceFactory</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="resourceFactory"><meta name="groc-project-path" content="lib/resourceFactory.js"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">lib/resourceFactory.js</div></div><div id="document"><div class="segment"><div class="comments"><div class="wrapper"><p>Module dependencies.</p></div></div><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">restify</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;restify&#39;</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">dir</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;directory&#39;</span><span class="p">),</span>
+    <span class="nx">assert</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;assert&#39;</span><span class="p">);</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Private functions</p></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>from prototype.js</p></div></div><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">underscore</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">name</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/::/g</span><span class="p">,</span> <span class="s1">&#39;/&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/([A-Z]+)([A-Z][a-z])/g</span><span class="p">,</span> <span class="s1">&#39;$1_$2&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/([a-z\d])([A-Z])/g</span><span class="p">,</span> <span class="s1">&#39;$1_$2&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/-/g</span><span class="p">,</span> <span class="s1">&#39;_&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
+<span class="p">}</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>ResourceFactory constructor. This class supports the basic behavior of all rest
+calls (blog, product, order, etc)
+It uses the restify client behind the scenes to provide
+high-performance, well-designed
+rest support. As such, the options are the same as restify's.</p>
+
+<p>Tacks in the following headers automatically:</p>
+
+<ul>
+<li>Date</li>
+<li>Accept: application/json</li>
+</ul>
+
+<p>On data:
+- Content-Type: application/json
+- Content-Length
+- Content-MD5</p>
+
+<p>@param {Object} options the usual pattern with:
+  - url: base url to communicate with (required).
+  - path: HTTP Resource (default: '/' || path from url).
+  - headers: Any additional HTTP headers to send on all requests.
+  - contentType: one of the supported serialization formats, which is
+      either <code>application/json</code> or application/x-www-form-urlencoded. Default
+      is JSON.
+  - version: Default version to use in x-api-version (optional).
+  - retryOptions: options to pass to node-retry. Defaults to 3 retries after
+      a 500ms wait.
+  - noContentMD5: skip content-md5 checking.</p></div></div><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">ResourceFactory</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">Resource</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+<span class="p">};</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Factory method for creating resources
+@param {Class} resourceClass the resource to be created.</p>
+
+<h3 id="available-resource-classes">Available Resource Classes:</h3>
+
+<ul>
+<li>ApplicationCharges</li>
+<li>Articles</li>
+<li>Assets</li>
+<li>Blogs</li>
+<li>Carts</li>
+<li>Collects</li>
+<li>Comments</li>
+<li>Countries</li>
+<li>CustomCollections</li>
+<li>Customers</li>
+<li>CustomerGroups</li>
+<li>Events</li>
+<li>Fulfillments</li>
+<li>Metafields</li>
+<li>Orders</li>
+<li>Pages</li>
+<li>Products</li>
+<li>ProductSearchEngines</li>
+<li>RecurringApplicationCharges</li>
+<li>Redirects</li>
+<li>ScriptTags</li>
+<li>Shops</li>
+<li>Themes</li>
+<li>Transactions</li>
+<li>Webhooks</li>
+</ul>
+
+<p>@param {Object} options</p></div></div><div class="code"><div class="wrapper"><span class="nx">ResourceFactory</span><span class="p">.</span><span class="nx">createResource</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">shopnode</span><span class="p">,</span> <span class="nx">module</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="kd">var</span> <span class="nx">headers</span> <span class="o">=</span> <span class="p">{};</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">shopnode</span><span class="p">.</span><span class="nx">useBasicAuth</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nx">headers</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">Authorization</span><span class="o">:</span> <span class="s1">&#39;Basic &#39;</span> <span class="o">+</span> <span class="k">new</span> <span class="nx">Buffer</span><span class="p">(</span><span class="nx">shopnode</span><span class="p">.</span><span class="nx">apiKey</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span> <span class="o">+</span> <span class="nx">shopnode</span><span class="p">.</span><span class="nx">password</span><span class="p">).</span><span class="nx">toString</span><span class="p">(</span><span class="s1">&#39;base64&#39;</span><span class="p">)};</span>
+    <span class="p">}</span>
+
+    <span class="kd">var</span> <span class="nx">resource</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">module</span><span class="p">(</span><span class="nx">restify</span><span class="p">.</span><span class="nx">createClient</span><span class="p">({</span>
+        <span class="nx">url</span><span class="o">:</span> <span class="nx">shopnode</span><span class="p">.</span><span class="nx">getBaseUrl</span><span class="p">(),</span>
+        <span class="nx">log</span><span class="o">:</span> <span class="nx">shopnode</span><span class="p">.</span><span class="nx">log</span><span class="p">,</span>
+        <span class="nx">headers</span><span class="o">:</span> <span class="nx">headers</span>
+    <span class="p">}));</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>assert.ok(resource.path,'A path function is required for all resources.');</p></div></div><div class="code"><div class="wrapper">    <span class="nx">resource</span><span class="p">.</span><span class="nx">resourceName</span> <span class="o">=</span> <span class="nx">underscore</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">resource</span><span class="p">;</span>
+<span class="p">}</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Load all api resources from resources directory
+@param nodejify the nodejify api base object</p></div></div><div class="code"><div class="wrapper"><span class="nx">ResourceFactory</span><span class="p">.</span><span class="nx">loadResources</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">shopnode</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">dir</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;directory&#39;</span><span class="p">)(</span><span class="nx">__dirname</span> <span class="o">+</span><span class="s1">&#39;/resources/&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">module</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">resource</span> <span class="o">=</span> <span class="nx">ResourceFactory</span><span class="p">.</span><span class="nx">createResource</span><span class="p">(</span><span class="nx">shopnode</span><span class="p">,</span> <span class="nx">module</span><span class="p">,</span> <span class="nx">name</span><span class="p">);</span>
+        <span class="nx">shopnode</span><span class="p">[</span><span class="nx">name</span><span class="p">]</span> <span class="o">=</span> <span class="nx">resource</span><span class="p">;</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+
+
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">ResourceFactory</span><span class="p">;</span></div></div></div></div></body></html>
