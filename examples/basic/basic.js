@@ -1,7 +1,8 @@
 var Shopnode = require('../../lib/shopnode');
 var assert = require('assert')
     , nconf = require('nconf')
-    , util = require('util');
+    , util = require('util')
+    , fs = require('fs');
 
 
 var log = require('restify').log;
@@ -40,30 +41,21 @@ var runBasicTest = function () {
         console.log('Server returned: %j', obj.body);
     });
 
-    shopnode.customers.post({
-        "customer": {
-            "first_name": "Steve",
-            "last_name": "Lastnameson",
-            "email": "steve.lastnameson@lastnamesonco.com",
-            "addresses": [
-                {
-                    "address1": "123 Oak St",
-                    "city": "Ottawa",
-                    "country": "CA",
-                    "first_name": "Mother",
-                    "last_name": "Lastnameson",
-                    "phone": "555-1212",
-                    "province": "ON",
-                    "zip": "123 ABC"
-                }
-            ]
-        }
-    },function(err, req, res, obj){
 
-        assert.ifError(err);
-        console.log('Server returned: %j', obj.body);
+    fs.readFile('./examples/basic/data/customers.json', 'utf8', function (err, data) {
+        shopnode.customers.post(JSON.parse(data),
+            function (err, req, res, obj) {
+
+                assert.ifError(err);
+                console.log('Server returned: %s', obj.body);
+
+                shopnode.customers.del({id:req.customer.id}, function(err1,req1, res1, obj1){
+                    assert.ifError(err1);
+                    console.log('Server returned: %j', req);
+                });
+
+            });
     });
-
 }
 
 
