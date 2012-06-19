@@ -122,6 +122,127 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         }
       ]
     }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "singleLineComment": ["//"],
+          "name": "JavaScript"
+        },
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/common.js",
+        "projectPath": "lib/common.js",
+        "targetPath": "common",
+        "title": "common"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "singleLineComment": ["//"],
+          "name": "JavaScript"
+        },
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resource.js",
+        "projectPath": "lib/resource.js",
+        "targetPath": "resource",
+        "firstHeader": {
+          "type": "heading",
+          "data": {
+            "level": 1,
+            "title": "Base module for all resource modules",
+            "slug": "base-module-for-all-resource-modules",
+            "isFileHeader": true
+          },
+          "depth": 1,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Constructor",
+                "slug": "constructor"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Returns the full relative including extension",
+                "slug": "returns-the-full-relative-including-extension"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Returns an object which maps function calls in the module to a path. Override this method",
+                "slug": "returns-an-object-which-maps-function-calls-in-the-module-to-a-path-override-this-method"
+              },
+              "depth": 2
+            }
+          ]
+        },
+        "title": "Base module for all resource modules"
+      },
+      "depth": 1,
+      "outline": [
+        {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Constructor",
+            "slug": "constructor"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Returns the full relative including extension",
+            "slug": "returns-the-full-relative-including-extension"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Returns an object which maps function calls in the module to a path. Override this method",
+            "slug": "returns-an-object-which-maps-function-calls-in-the-module-to-a-path-override-this-method"
+          },
+          "depth": 2
+        }
+      ]
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "singleLineComment": ["//"],
+          "name": "JavaScript"
+        },
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resourceFactory.js",
+        "projectPath": "lib/resourceFactory.js",
+        "targetPath": "resourceFactory",
+        "title": "resourceFactory"
+      },
+      "depth": 1,
+      "outline": [
+        {
+          "type": "heading",
+          "data": {
+            "level": 3,
+            "title": "Available Resource Classes:",
+            "slug": "available-resource-classes"
+          },
+          "depth": 3
+        }
+      ]
+    }, {
       "type": "folder",
       "data": {
         "path": "resources",
@@ -593,6 +714,32 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           },
           "depth": 2,
           "outline": []
+        }
+      ]
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "singleLineComment": ["//"],
+          "name": "JavaScript"
+        },
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/shopnode.js",
+        "projectPath": "lib/shopnode.js",
+        "targetPath": "shopnode",
+        "title": "shopnode"
+      },
+      "depth": 1,
+      "outline": [
+        {
+          "type": "heading",
+          "data": {
+            "level": 3,
+            "title": "Shopnode Api",
+            "slug": "shopnode-api"
+          },
+          "depth": 3
         }
       ]
     }

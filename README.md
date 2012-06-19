@@ -18,5 +18,6 @@ The code builds on nodeify using restify in the backend for performance and logg
 
 ### Additional Resources
 
-[Shopify Api](http://api.shopify.com/)
-[Shopify Partner Program](http://www.shopify.com/partners/apps)
+- [Shopify Api](http://api.shopify.com/) - Browse the api
+- [Shopify Partner Program](http://www.shopify.com/partners/apps) - Register to become a partner
+ to publish your app to the store.
