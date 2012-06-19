@@ -20,8 +20,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 1,
-            "title": "nodejify",
-            "slug": "nodejify",
+            "title": "shopnode",
+            "slug": "shopnode",
             "isFileHeader": true
           },
           "depth": 1,
@@ -30,16 +30,16 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "type": "heading",
               "data": {
                 "level": 2,
-                "title": "What do you get with nodejify?",
-                "slug": "what-do-you-get-with-nodejify"
+                "title": "What do you get with shopnode?",
+                "slug": "what-do-you-get-with-shopnode"
               },
               "depth": 2
             }, {
               "type": "heading",
               "data": {
                 "level": 2,
-                "title": "Intro",
-                "slug": "intro"
+                "title": "Using shopnode",
+                "slug": "using-shopnode"
               },
               "depth": 2,
               "children": [
@@ -47,8 +47,24 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Setting up a nodejify session",
-                    "slug": "setting-up-a-nodejify-session"
+                    "title": "Setting up a shopnode session",
+                    "slug": "setting-up-a-shopnode-session"
+                  },
+                  "depth": 3
+                }, {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Making a call",
+                    "slug": "making-a-call"
+                  },
+                  "depth": 3
+                }, {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Additional Resources",
+                    "slug": "additional-resources"
                   },
                   "depth": 3
                 }
@@ -56,7 +72,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             }
           ]
         },
-        "title": "nodejify"
+        "title": "shopnode"
       },
       "depth": 1,
       "outline": [
@@ -64,16 +80,16 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 2,
-            "title": "What do you get with nodejify?",
-            "slug": "what-do-you-get-with-nodejify"
+            "title": "What do you get with shopnode?",
+            "slug": "what-do-you-get-with-shopnode"
           },
           "depth": 2
         }, {
           "type": "heading",
           "data": {
             "level": 2,
-            "title": "Intro",
-            "slug": "intro"
+            "title": "Using shopnode",
+            "slug": "using-shopnode"
           },
           "depth": 2,
           "children": [
@@ -81,12 +97,502 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "type": "heading",
               "data": {
                 "level": 3,
-                "title": "Setting up a nodejify session",
-                "slug": "setting-up-a-nodejify-session"
+                "title": "Setting up a shopnode session",
+                "slug": "setting-up-a-shopnode-session"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Making a call",
+                "slug": "making-a-call"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Additional Resources",
+                "slug": "additional-resources"
               },
               "depth": 3
             }
           ]
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "resources",
+        "title": "resources"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/applicationCharges.js",
+            "projectPath": "lib/resources/applicationCharges.js",
+            "targetPath": "resources/applicationCharges",
+            "title": "applicationCharges"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/articles.js",
+            "projectPath": "lib/resources/articles.js",
+            "targetPath": "resources/articles",
+            "title": "articles"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/assets.js",
+            "projectPath": "lib/resources/assets.js",
+            "targetPath": "resources/assets",
+            "title": "assets"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/blogs.js",
+            "projectPath": "lib/resources/blogs.js",
+            "targetPath": "resources/blogs",
+            "title": "blogs"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/carts.js",
+            "projectPath": "lib/resources/carts.js",
+            "targetPath": "resources/carts",
+            "title": "carts"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/collects.js",
+            "projectPath": "lib/resources/collects.js",
+            "targetPath": "resources/collects",
+            "title": "collects"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/comments.js",
+            "projectPath": "lib/resources/comments.js",
+            "targetPath": "resources/comments",
+            "title": "comments"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/countries.js",
+            "projectPath": "lib/resources/countries.js",
+            "targetPath": "resources/countries",
+            "title": "countries"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customCollections.js",
+            "projectPath": "lib/resources/customCollections.js",
+            "targetPath": "resources/customCollections",
+            "title": "customCollections"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customerGroups.js",
+            "projectPath": "lib/resources/customerGroups.js",
+            "targetPath": "resources/customerGroups",
+            "title": "customerGroups"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customers.js",
+            "projectPath": "lib/resources/customers.js",
+            "targetPath": "resources/customers",
+            "title": "customers"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/events.js",
+            "projectPath": "lib/resources/events.js",
+            "targetPath": "resources/events",
+            "title": "events"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/fulfillments.js",
+            "projectPath": "lib/resources/fulfillments.js",
+            "targetPath": "resources/fulfillments",
+            "title": "fulfillments"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/metafields.js",
+            "projectPath": "lib/resources/metafields.js",
+            "targetPath": "resources/metafields",
+            "title": "metafields"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/orders.js",
+            "projectPath": "lib/resources/orders.js",
+            "targetPath": "resources/orders",
+            "title": "orders"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/pages.js",
+            "projectPath": "lib/resources/pages.js",
+            "targetPath": "resources/pages",
+            "title": "pages"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productImages.js",
+            "projectPath": "lib/resources/productImages.js",
+            "targetPath": "resources/productImages",
+            "title": "productImages"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productSearchEngines.js",
+            "projectPath": "lib/resources/productSearchEngines.js",
+            "targetPath": "resources/productSearchEngines",
+            "title": "productSearchEngines"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productVariants.js",
+            "projectPath": "lib/resources/productVariants.js",
+            "targetPath": "resources/productVariants",
+            "title": "productVariants"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/products.js",
+            "projectPath": "lib/resources/products.js",
+            "targetPath": "resources/products",
+            "title": "products"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/provinces.js",
+            "projectPath": "lib/resources/provinces.js",
+            "targetPath": "resources/provinces",
+            "title": "provinces"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/recurringApplicationCharges.js",
+            "projectPath": "lib/resources/recurringApplicationCharges.js",
+            "targetPath": "resources/recurringApplicationCharges",
+            "title": "recurringApplicationCharges"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/redirects.js",
+            "projectPath": "lib/resources/redirects.js",
+            "targetPath": "resources/redirects",
+            "title": "redirects"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/scriptTags.js",
+            "projectPath": "lib/resources/scriptTags.js",
+            "targetPath": "resources/scriptTags",
+            "title": "scriptTags"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/shop.js",
+            "projectPath": "lib/resources/shop.js",
+            "targetPath": "resources/shop",
+            "title": "shop"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/smartCollections.js",
+            "projectPath": "lib/resources/smartCollections.js",
+            "targetPath": "resources/smartCollections",
+            "title": "smartCollections"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/themes.js",
+            "projectPath": "lib/resources/themes.js",
+            "targetPath": "resources/themes",
+            "title": "themes"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/transactions.js",
+            "projectPath": "lib/resources/transactions.js",
+            "targetPath": "resources/transactions",
+            "title": "transactions"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "singleLineComment": ["//"],
+              "name": "JavaScript"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/webhooks.js",
+            "projectPath": "lib/resources/webhooks.js",
+            "targetPath": "resources/webhooks",
+            "title": "webhooks"
+          },
+          "depth": 2,
+          "outline": []
         }
       ]
     }
