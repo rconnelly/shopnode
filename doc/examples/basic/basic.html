@@ -40,6 +40,26 @@
         <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
     <span class="p">});</span>
 
+    <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">post</span><span class="p">({},{</span>
+        <span class="s2">&quot;customer&quot;</span><span class="o">:</span> <span class="p">{</span>
+            <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Steve&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Lastnameson&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;steve.lastnameson@lastnamesonco.com&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;addresses&quot;</span><span class="o">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;address1&quot;</span><span class="o">:</span> <span class="s2">&quot;123 Oak St&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;city&quot;</span><span class="o">:</span> <span class="s2">&quot;Ottawa&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;country&quot;</span><span class="o">:</span> <span class="s2">&quot;CA&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Mother&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Lastnameson&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;phone&quot;</span><span class="o">:</span> <span class="s2">&quot;555-1212&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;province&quot;</span><span class="o">:</span> <span class="s2">&quot;ON&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;zip&quot;</span><span class="o">:</span> <span class="s2">&quot;123 ABC&quot;</span>
+                <span class="p">}</span>
+            <span class="p">]</span>
+        <span class="p">}</span>
+    <span class="p">})</span>
+
 <span class="p">}</span>
 
 

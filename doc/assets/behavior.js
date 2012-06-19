@@ -246,26 +246,45 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "type": "heading",
               "data": {
                 "level": 2,
-                "title": "Constructor",
-                "slug": "constructor"
+                "title": "Resource Constructor",
+                "slug": "resource-constructor"
               },
               "depth": 2
             }, {
               "type": "heading",
               "data": {
                 "level": 2,
-                "title": "Returns the full relative including extension",
-                "slug": "returns-the-full-relative-including-extension"
+                "title": "urlPathFromRoute",
+                "slug": "urlpathfromroute"
               },
               "depth": 2
             }, {
               "type": "heading",
               "data": {
                 "level": 2,
-                "title": "Returns an object which maps function calls in the module to a path. Override this method",
-                "slug": "returns-an-object-which-maps-function-calls-in-the-module-to-a-path-override-this-method"
+                "title": "Routes",
+                "slug": "routes"
               },
-              "depth": 2
+              "depth": 2,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Route Config Example",
+                    "slug": "route-config-example"
+                  },
+                  "depth": 3
+                }, {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Example",
+                    "slug": "example"
+                  },
+                  "depth": 3
+                }
+              ]
             }
           ]
         },
@@ -277,26 +296,45 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 2,
-            "title": "Constructor",
-            "slug": "constructor"
+            "title": "Resource Constructor",
+            "slug": "resource-constructor"
           },
           "depth": 2
         }, {
           "type": "heading",
           "data": {
             "level": 2,
-            "title": "Returns the full relative including extension",
-            "slug": "returns-the-full-relative-including-extension"
+            "title": "urlPathFromRoute",
+            "slug": "urlpathfromroute"
           },
           "depth": 2
         }, {
           "type": "heading",
           "data": {
             "level": 2,
-            "title": "Returns an object which maps function calls in the module to a path. Override this method",
-            "slug": "returns-an-object-which-maps-function-calls-in-the-module-to-a-path-override-this-method"
+            "title": "Routes",
+            "slug": "routes"
           },
-          "depth": 2
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Route Config Example",
+                "slug": "route-config-example"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Example",
+                "slug": "example"
+              },
+              "depth": 3
+            }
+          ]
         }
       ]
     }, {

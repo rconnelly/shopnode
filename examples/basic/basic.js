@@ -40,6 +40,26 @@ var runBasicTest = function () {
         console.log('Server returned: %j', obj.body);
     });
 
+    shopnode.customers.post({},{
+        "customer": {
+            "first_name": "Steve",
+            "last_name": "Lastnameson",
+            "email": "steve.lastnameson@lastnamesonco.com",
+            "addresses": [
+                {
+                    "address1": "123 Oak St",
+                    "city": "Ottawa",
+                    "country": "CA",
+                    "first_name": "Mother",
+                    "last_name": "Lastnameson",
+                    "phone": "555-1212",
+                    "province": "ON",
+                    "zip": "123 ABC"
+                }
+            ]
+        }
+    })
+
 }
 
 
