@@ -160,21 +160,66 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         }
       ]
     }, {
-      "type": "file",
+      "type": "folder",
       "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "singleLineComment": ["//"],
-          "name": "JavaScript"
-        },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/common.js",
-        "projectPath": "lib/common.js",
-        "targetPath": "common",
-        "title": "common"
+        "path": "examples",
+        "title": "examples"
       },
       "depth": 1,
-      "outline": []
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".md"],
+              "commentsOnly": true,
+              "name": "Markdown"
+            },
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/examples/README.md",
+            "projectPath": "examples/README.md",
+            "targetPath": "examples/README",
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Examples",
+                "slug": "examples",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Examples"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "folder",
+          "data": {
+            "path": "examples/basic",
+            "title": "basic"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "singleLineComment": ["//"],
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/examples/basic/basic.js",
+                "projectPath": "examples/basic/basic.js",
+                "targetPath": "examples/basic/basic",
+                "title": "basic"
+              },
+              "depth": 3,
+              "outline": []
+            }
+          ]
+        }
+      ]
     }, {
       "type": "file",
       "data": {
