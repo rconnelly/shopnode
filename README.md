@@ -10,6 +10,13 @@ The code builds on nodeify using restify in the backend for performance and logg
 * Tutorials on how
 * Examples of how to use
 
-## Intro
+## Using shopnode
 
 ### Setting up a shopnode session
+
+### Making a call
+
+### Additional Resources
+
+[Shopify Api](http://api.shopify.com/)
+[Shopify Partner Program](http://www.shopify.com/partners/apps)
