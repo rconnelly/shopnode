@@ -420,7 +420,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/applicationCharges.js",
             "projectPath": "lib/resources/applicationCharges.js",
             "targetPath": "resources/applicationCharges",
-            "title": "applicationCharges"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Application Charges",
+                "slug": "application-charges",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Application Charges"
           },
           "depth": 2,
           "outline": []
@@ -436,7 +446,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/articles.js",
             "projectPath": "lib/resources/articles.js",
             "targetPath": "resources/articles",
-            "title": "articles"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Articles",
+                "slug": "articles",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Articles"
           },
           "depth": 2,
           "outline": []
@@ -452,7 +472,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/assets.js",
             "projectPath": "lib/resources/assets.js",
             "targetPath": "resources/assets",
-            "title": "assets"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Assets",
+                "slug": "assets",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Assets"
           },
           "depth": 2,
           "outline": []
@@ -468,7 +498,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/blogs.js",
             "projectPath": "lib/resources/blogs.js",
             "targetPath": "resources/blogs",
-            "title": "blogs"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Blogs",
+                "slug": "blogs",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Blogs"
           },
           "depth": 2,
           "outline": []
@@ -484,7 +524,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/carts.js",
             "projectPath": "lib/resources/carts.js",
             "targetPath": "resources/carts",
-            "title": "carts"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Carts",
+                "slug": "carts",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Carts"
           },
           "depth": 2,
           "outline": []
@@ -500,7 +550,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/collects.js",
             "projectPath": "lib/resources/collects.js",
             "targetPath": "resources/collects",
-            "title": "collects"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Collects",
+                "slug": "collects",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Collects"
           },
           "depth": 2,
           "outline": []
@@ -516,7 +576,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/comments.js",
             "projectPath": "lib/resources/comments.js",
             "targetPath": "resources/comments",
-            "title": "comments"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Comments",
+                "slug": "comments",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Comments"
           },
           "depth": 2,
           "outline": []
@@ -532,7 +602,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/countries.js",
             "projectPath": "lib/resources/countries.js",
             "targetPath": "resources/countries",
-            "title": "countries"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Countries",
+                "slug": "countries",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Countries"
           },
           "depth": 2,
           "outline": []
@@ -548,7 +628,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customCollections.js",
             "projectPath": "lib/resources/customCollections.js",
             "targetPath": "resources/customCollections",
-            "title": "customCollections"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Custom Collections",
+                "slug": "custom-collections",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Custom Collections"
           },
           "depth": 2,
           "outline": []
@@ -564,7 +654,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customerGroups.js",
             "projectPath": "lib/resources/customerGroups.js",
             "targetPath": "resources/customerGroups",
-            "title": "customerGroups"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Customer Groups",
+                "slug": "customer-groups",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Customer Groups"
           },
           "depth": 2,
           "outline": []
@@ -580,7 +680,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customers.js",
             "projectPath": "lib/resources/customers.js",
             "targetPath": "resources/customers",
-            "title": "customers"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Customers",
+                "slug": "customers",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Customers"
           },
           "depth": 2,
           "outline": []
@@ -596,7 +706,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/events.js",
             "projectPath": "lib/resources/events.js",
             "targetPath": "resources/events",
-            "title": "events"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Events",
+                "slug": "events",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Events"
           },
           "depth": 2,
           "outline": []
@@ -612,7 +732,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/fulfillments.js",
             "projectPath": "lib/resources/fulfillments.js",
             "targetPath": "resources/fulfillments",
-            "title": "fulfillments"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Fulfillments",
+                "slug": "fulfillments",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Fulfillments"
           },
           "depth": 2,
           "outline": []
@@ -628,7 +758,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/metafields.js",
             "projectPath": "lib/resources/metafields.js",
             "targetPath": "resources/metafields",
-            "title": "metafields"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Metafields",
+                "slug": "metafields",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Metafields"
           },
           "depth": 2,
           "outline": []
@@ -644,7 +784,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/orders.js",
             "projectPath": "lib/resources/orders.js",
             "targetPath": "resources/orders",
-            "title": "orders"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Orders",
+                "slug": "orders",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Orders"
           },
           "depth": 2,
           "outline": []
@@ -660,7 +810,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/pages.js",
             "projectPath": "lib/resources/pages.js",
             "targetPath": "resources/pages",
-            "title": "pages"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Pages",
+                "slug": "pages",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Pages"
           },
           "depth": 2,
           "outline": []
@@ -676,7 +836,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productImages.js",
             "projectPath": "lib/resources/productImages.js",
             "targetPath": "resources/productImages",
-            "title": "productImages"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Product Images",
+                "slug": "product-images",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Product Images"
           },
           "depth": 2,
           "outline": []
@@ -692,7 +862,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productSearchEngines.js",
             "projectPath": "lib/resources/productSearchEngines.js",
             "targetPath": "resources/productSearchEngines",
-            "title": "productSearchEngines"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Product Search Engines",
+                "slug": "product-search-engines",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Product Search Engines"
           },
           "depth": 2,
           "outline": []
@@ -708,7 +888,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productVariants.js",
             "projectPath": "lib/resources/productVariants.js",
             "targetPath": "resources/productVariants",
-            "title": "productVariants"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Product Variants",
+                "slug": "product-variants",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Product Variants"
           },
           "depth": 2,
           "outline": []
@@ -724,7 +914,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/products.js",
             "projectPath": "lib/resources/products.js",
             "targetPath": "resources/products",
-            "title": "products"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Products",
+                "slug": "products",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Products"
           },
           "depth": 2,
           "outline": []
@@ -740,7 +940,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/provinces.js",
             "projectPath": "lib/resources/provinces.js",
             "targetPath": "resources/provinces",
-            "title": "provinces"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Provinces",
+                "slug": "provinces",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Provinces"
           },
           "depth": 2,
           "outline": []
@@ -756,7 +966,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/recurringApplicationCharges.js",
             "projectPath": "lib/resources/recurringApplicationCharges.js",
             "targetPath": "resources/recurringApplicationCharges",
-            "title": "recurringApplicationCharges"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Recurring Application Charges",
+                "slug": "recurring-application-charges",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Recurring Application Charges"
           },
           "depth": 2,
           "outline": []
@@ -772,7 +992,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/redirects.js",
             "projectPath": "lib/resources/redirects.js",
             "targetPath": "resources/redirects",
-            "title": "redirects"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Redirects",
+                "slug": "redirects",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Redirects"
           },
           "depth": 2,
           "outline": []
@@ -788,7 +1018,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/scriptTags.js",
             "projectPath": "lib/resources/scriptTags.js",
             "targetPath": "resources/scriptTags",
-            "title": "scriptTags"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Script Tags",
+                "slug": "script-tags",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Script Tags"
           },
           "depth": 2,
           "outline": []
@@ -804,7 +1044,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/shop.js",
             "projectPath": "lib/resources/shop.js",
             "targetPath": "resources/shop",
-            "title": "shop"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Shop",
+                "slug": "shop",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Shop"
           },
           "depth": 2,
           "outline": []
@@ -820,7 +1070,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/smartCollections.js",
             "projectPath": "lib/resources/smartCollections.js",
             "targetPath": "resources/smartCollections",
-            "title": "smartCollections"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Smart Collections",
+                "slug": "smart-collections",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Smart Collections"
           },
           "depth": 2,
           "outline": []
@@ -836,7 +1096,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/themes.js",
             "projectPath": "lib/resources/themes.js",
             "targetPath": "resources/themes",
-            "title": "themes"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Themes",
+                "slug": "themes",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Themes"
           },
           "depth": 2,
           "outline": []
@@ -852,7 +1122,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/transactions.js",
             "projectPath": "lib/resources/transactions.js",
             "targetPath": "resources/transactions",
-            "title": "transactions"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Transactions",
+                "slug": "transactions",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Transactions"
           },
           "depth": 2,
           "outline": []
@@ -868,7 +1148,17 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/webhooks.js",
             "projectPath": "lib/resources/webhooks.js",
             "targetPath": "resources/webhooks",
-            "title": "webhooks"
+            "firstHeader": {
+              "type": "heading",
+              "data": {
+                "level": 1,
+                "title": "Webhooks",
+                "slug": "webhooks",
+                "isFileHeader": true
+              },
+              "depth": 1
+            },
+            "title": "Webhooks"
           },
           "depth": 2,
           "outline": []
@@ -886,18 +1176,39 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/shopnode.js",
         "projectPath": "lib/shopnode.js",
         "targetPath": "shopnode",
-        "title": "shopnode"
+        "firstHeader": {
+          "type": "heading",
+          "data": {
+            "level": 1,
+            "title": "Shopnode Api",
+            "slug": "shopnode-api",
+            "isFileHeader": true
+          },
+          "depth": 1,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "setupParams available with:",
+                "slug": "setupparams-available-with"
+              },
+              "depth": 2
+            }
+          ]
+        },
+        "title": "Shopnode Api"
       },
       "depth": 1,
       "outline": [
         {
           "type": "heading",
           "data": {
-            "level": 3,
-            "title": "Shopnode Api",
-            "slug": "shopnode-api"
+            "level": 2,
+            "title": "setupParams available with:",
+            "slug": "setupparams-available-with"
           },
-          "depth": 3
+          "depth": 2
         }
       ]
     }

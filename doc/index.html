@@ -9,8 +9,9 @@ shopping cart platform shopify.</p>
 
 <ul>
 <li>Complete support for the latest shopify api (let me know if it's missing something)</li>
-<li>Tutorials on how</li>
-<li>Examples of how to use</li>
+<li>Uses the <a href="http://mcavage.github.com/node-restify/">Restify</a> module behind the scenes</li>
+<li>Documentation (a work in progress)</li>
+<li><a href="examples/README.md">Example code</a></li>
 </ul>
 
 <h2 id="using-shopnode">Using shopnode</h2>
@@ -19,13 +20,28 @@ shopping cart platform shopify.</p>
 
 <pre><code>var Shopnode = require('shopnode');
 
+// Basic Authentication
 var shopnode = new Shopnode({
     storeHost:'yourshop.myshopify.com',
     apiKey:'your-api-key',
     password:'your-password-if-basic-auth',
     useBasicAuth:true
 });
+
+// OAuth 2.0
+var shopnode = new Shopnode({
+    storeHost:'yourshop.myshopify.com',
+    apiKey:'your-api-key',
+    sharedKey:'your-shared-key'
+});
 </code></pre>
+
+<ul>
+<li><strong>storeHost</strong> - the store url without the https</li>
+<li><strong>apiKey</strong> - the key found in the admin section of your store</li>
+<li><strong>password</strong> - for private apps, this will be available. Public apps must used</li>
+<li><strong>sharedKey</strong> - for apps using OAuth 2.0, a shared key is required</li>
+</ul>
 
 <h3 id="making-a-call">Making a call</h3>
 

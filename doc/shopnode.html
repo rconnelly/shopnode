@@ -1,23 +1,28 @@
-<!DOCTYPE html><html lang="en"><head><title>shopnode</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="shopnode"><meta name="groc-project-path" content="lib/shopnode.js"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">lib/shopnode.js</div></div><div id="document"><div class="segment"></div><div class="segment"><div class="comments"><div class="wrapper"><h3 id="shopnode-api">Shopnode Api</h3></div></div></div><div class="segment"><div class="code"><div class="wrapper"> <span class="cm">/*</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>This is the core module for the library. It encapsulates resource modules which group rest calls into logical
-modules.</p></div></div><div class="code"><div class="wrapper"><span class="cm">var Crypto = require(&#39;crypto&#39;);</span>
-<span class="cm">var resource = require(&#39;./resourceFactory.js&#39;);</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>private functions// */</p></div></div><div class="code"><div class="wrapper"><span class="cm">var trim = function(string) {</span>
-<span class="cm">    return string.replace(/^\s\s*/</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\s\s*$/</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+<!DOCTYPE html><html lang="en"><head><title>shopnode</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="shopnode"><meta name="groc-project-path" content="lib/shopnode.js"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">lib/shopnode.js</div></div><div id="document"><div class="segment"><div class="comments"><div class="wrapper"><h1 id="shopnode-api">Shopnode Api</h1>
+
+<p>This is the core module for the library. It encapsulates resource modules which group rest calls into logical
+modules.</p></div></div><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">Crypto</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;crypto&#39;</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">resource</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;./resourceFactory.js&#39;</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">trim</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">string</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/^\s\s*/</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\s\s*$/</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
 <span class="p">};</span>
 
 <span class="kd">var</span> <span class="nx">empty</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">string</span> <span class="o">=</span> <span class="nx">trim</span><span class="p">(</span><span class="nx">string</span><span class="p">);</span>
     <span class="k">return</span> <span class="nx">string</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">};</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Nodejify constructor.</p>
+<span class="p">};</span></div></div></div><div class="segment"><div class="comments"><div class="wrapper"><p>Shopnode constructor</p>
 
-<p>@param {Object} setupParameters available with:
-- storeHost: the host name of the app -- i.e. myshop.myshopify.com, youshop.com (required)
-- token: the permissions token (optional if a private app)
-- apiKey: the api key provided by shopify (required)
-- password: the password provided by shopify (required if useBasicAuth is true)
-- sharedSecret: the shared secret provided by shopify (required if useBasicAuth is false)
-- useBasicAuth: if true, basic auth will be used to authenticaticate with shopify. If false, then OAuth2 will be
+<h2 id="setupparams-available-with">setupParams available with:</h2>
+
+<p><strong>storeHost</strong> the host name of the app -- i.e. myshop.myshopify.com, youshop.com (required)
+<strong>token</strong>: the permissions token (optional if a private app)
+<strong>apiKey</strong>: the api key provided by shopify (required)
+<strong>password</strong>: the password provided by shopify (required if useBasicAuth is true)
+<strong>sharedSecret</strong>: the shared secret provided by shopify (required if useBasicAuth is false)
+<strong>useBasicAuth</strong>: if true, basic auth will be used to authenticaticate with shopify. If false, then OAuth2 will be
 used. Defaults is false.
-- params: a list of parameters that should be sent with each call (optional)</p></div></div><div class="code"><div class="wrapper"><span class="kd">function</span> <span class="nx">Shopnode</span><span class="p">(</span><span class="nx">setupParams</span><span class="p">)</span> <span class="p">{</span>
+<strong>params</strong>: a list of parameters that should be sent with each call (optional)</p></div></div><div class="code"><div class="wrapper"><span class="kd">function</span> <span class="nx">Shopnode</span><span class="p">(</span><span class="nx">setupParams</span><span class="p">)</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">expireTime</span><span class="p">,</span> <span class="nx">timestamp</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">storeHost</span> <span class="o">=</span> <span class="nx">setupParams</span><span class="p">.</span><span class="nx">storeHost</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">token</span> <span class="o">=</span> <span class="nx">setupParams</span><span class="p">.</span><span class="nx">token</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
@@ -43,7 +48,7 @@ used. Defaults is false.
     <span class="k">if</span> <span class="p">(</span><span class="nx">empty</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">token</span><span class="p">))</span> <span class="k">this</span><span class="p">.</span><span class="nx">token</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">storeHost</span><span class="p">;</span> <span class="c1">// use the store host if a private app</span>
     <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">signature</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">timestamp</span> <span class="o">=</span> <span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">params</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">])).</span><span class="nx">getTime</span><span class="p">();</span>
-        <span class="nx">expireTime</span> <span class="o">=</span> <span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">).</span><span class="nx">getTime</span><span class="p">()</span> <span class="o">-</span> <span class="p">(</span><span class="mi">24</span><span class="c1">// 84600);</span>
+        <span class="nx">expireTime</span> <span class="o">=</span> <span class="p">(</span><span class="k">new</span> <span class="nb">Date</span><span class="p">).</span><span class="nx">getTime</span><span class="p">()</span> <span class="o">-</span> <span class="p">(</span><span class="mi">24</span> <span class="o">*</span> <span class="mi">84600</span><span class="p">);</span>
         <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="k">this</span><span class="p">.</span><span class="nx">validateSignature</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">params</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">secret</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">expireTime</span> <span class="o">&gt;</span> <span class="nx">timestamp</span><span class="p">)</span> <span class="p">{</span>
             <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;Invalid signature: Possible malicious login.&#39;</span><span class="p">);</span>
         <span class="p">}</span>
