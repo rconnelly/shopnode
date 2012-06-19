@@ -13,17 +13,6 @@ var suite = vows.describe('resource').addBatch({
         },
         'and get route /{resourceName}/:id':{ topic:'/{resourceName}/:id',
             'and param object {id: "123"}':{ topic:{id:"123"},
-                'calling routeConfigFromPath()':{
-                    topic:function (param, routePath, resource) {
-                        return resource.routeConfigFromPath(routePath);
-                    },
-                    'will return  object {key:[name: "id", optional: false], regex: /^\\/blog\\/(?:([^\\/]+?))\\/?$/"}': function (config)
-                    {
-                        assert.equal(config.regex.toString(),"/^\\/{resourceName}\\/(?:([^\\/]+?))\\/?$/");
-                        assert.equal(config.keys[0].name,"id");
-                        assert.equal(config.keys[0].optional,false);
-                    }
-                },
                 'calling urlPathFromRoute("get", params)':{
                     topic: function(param, routePath, resource){
                         return resource.urlPathFromRoute('get',param);
