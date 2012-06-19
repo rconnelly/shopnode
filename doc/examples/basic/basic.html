@@ -40,7 +40,7 @@
         <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
     <span class="p">});</span>
 
-    <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">post</span><span class="p">({},{</span>
+    <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">post</span><span class="p">({</span>
         <span class="s2">&quot;customer&quot;</span><span class="o">:</span> <span class="p">{</span>
             <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Steve&quot;</span><span class="p">,</span>
             <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Lastnameson&quot;</span><span class="p">,</span>
@@ -58,7 +58,11 @@
                 <span class="p">}</span>
             <span class="p">]</span>
         <span class="p">}</span>
-    <span class="p">})</span>
+    <span class="p">},</span><span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">obj</span><span class="p">){</span>
+
+        <span class="nx">assert</span><span class="p">.</span><span class="nx">ifError</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
+    <span class="p">});</span>
 
 <span class="p">}</span>
 

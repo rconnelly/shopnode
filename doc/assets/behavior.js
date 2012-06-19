@@ -76,6 +76,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                         "slug": "returning-one-order-with-where-id--12345"
                       },
                       "depth": 4
+                    }, {
+                      "type": "heading",
+                      "data": {
+                        "level": 4,
+                        "title": "Creating a customer",
+                        "slug": "creating-a-customer"
+                      },
+                      "depth": 4
                     }
                   ]
                 }, {
@@ -143,6 +151,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                     "level": 4,
                     "title": "Returning one order with where id = 12345",
                     "slug": "returning-one-order-with-where-id--12345"
+                  },
+                  "depth": 4
+                }, {
+                  "type": "heading",
+                  "data": {
+                    "level": 4,
+                    "title": "Creating a customer",
+                    "slug": "creating-a-customer"
                   },
                   "depth": 4
                 }
