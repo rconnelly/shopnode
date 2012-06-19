@@ -40,7 +40,7 @@ var runBasicTest = function () {
         console.log('Server returned: %j', obj.body);
     });
 
-    shopnode.customers.post({},{
+    shopnode.customers.post({
         "customer": {
             "first_name": "Steve",
             "last_name": "Lastnameson",
@@ -58,7 +58,11 @@ var runBasicTest = function () {
                 }
             ]
         }
-    })
+    },function(err, req, res, obj){
+
+        assert.ifError(err);
+        console.log('Server returned: %j', obj.body);
+    });
 
 }
 

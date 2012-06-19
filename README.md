@@ -61,16 +61,44 @@ POST/PUT/GET/DELETE methods all have specific parameters for each.
         console.log('Server returned: %j', obj.body);
         });
 
+#### Creating a customer
+
+    shopnode.customers.post({
+            "customer": {
+                "first_name": "Steve",
+                "last_name": "Lastnameson",
+                "email": "steve.lastnameson@lastnamesonco.com",
+                "addresses": [
+                    {
+                        "address1": "123 Oak St",
+                        "city": "Ottawa",
+                        "country": "CA",
+                        "first_name": "Mother",
+                        "last_name": "Lastnameson",
+                        "phone": "555-1212",
+                        "province": "ON",
+                        "zip": "123 ABC"
+                    }
+                ]
+            }
+        },function(err, req, res, obj){
+
+            assert.ifError(err);
+            console.log('Server returned: %j', obj.body);
+        });
+
 Many resources support basic CRUD operations and have the following signatures:
 
-post(params, data, callback);
+post(params (optional), data, callback);
 put(params, data, callback);
 get(params, queryString, callback);
-getAll(params, queryString, callback);
+getAll(params (optional), queryString (optional), callback);
 
 - **params** is an object which will be used to the generate url
 - **data** is an object which will be seralized in all post and put calls
 - **queryString** is an object which will be converted into a query string (i.e. ?name=value&name2=value2)
+
+
 
 ### Additional Resources
 
