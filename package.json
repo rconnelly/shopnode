@@ -1,10 +1,10 @@
 {
   "author": "Ryan Connelly <ryan@quad.io> (http://quad.io)",
-  "name": "nodejify",
+  "name": "shopnode",
   "description": "A complete node client for the shopify api.",
   "version": "0.0.1",
   "homepage": "http://quad.io",
-  "main": "nodejify.js",
+  "main": "shopnode.js",
   "scripts": {
     "test": "make test"
   },
