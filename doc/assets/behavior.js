@@ -58,7 +58,26 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                     "title": "Making a call",
                     "slug": "making-a-call"
                   },
-                  "depth": 3
+                  "depth": 3,
+                  "children": [
+                    {
+                      "type": "heading",
+                      "data": {
+                        "level": 4,
+                        "title": "Returning all webhooks",
+                        "slug": "returning-all-webhooks"
+                      },
+                      "depth": 4
+                    }, {
+                      "type": "heading",
+                      "data": {
+                        "level": 4,
+                        "title": "Returning one order with where id = 12345",
+                        "slug": "returning-one-order-with-where-id--12345"
+                      },
+                      "depth": 4
+                    }
+                  ]
                 }, {
                   "type": "heading",
                   "data": {
@@ -108,7 +127,26 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 "title": "Making a call",
                 "slug": "making-a-call"
               },
-              "depth": 3
+              "depth": 3,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 4,
+                    "title": "Returning all webhooks",
+                    "slug": "returning-all-webhooks"
+                  },
+                  "depth": 4
+                }, {
+                  "type": "heading",
+                  "data": {
+                    "level": 4,
+                    "title": "Returning one order with where id = 12345",
+                    "slug": "returning-one-order-with-where-id--12345"
+                  },
+                  "depth": 4
+                }
+              ]
             }, {
               "type": "heading",
               "data": {
@@ -153,8 +191,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 1,
-            "title": "Base module for all resource modules",
-            "slug": "base-module-for-all-resource-modules",
+            "title": "Resource",
+            "slug": "resource",
             "isFileHeader": true
           },
           "depth": 1,
@@ -186,7 +224,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             }
           ]
         },
-        "title": "Base module for all resource modules"
+        "title": "Resource"
       },
       "depth": 1,
       "outline": [
@@ -228,7 +266,55 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resourceFactory.js",
         "projectPath": "lib/resourceFactory.js",
         "targetPath": "resourceFactory",
-        "title": "resourceFactory"
+        "firstHeader": {
+          "type": "heading",
+          "data": {
+            "level": 1,
+            "title": "Resource Factory",
+            "slug": "resource-factory",
+            "isFileHeader": true
+          },
+          "depth": 1,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Options",
+                "slug": "options"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Parameters",
+                "slug": "parameters"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "- shopnode",
+                "slug": "-shopnode"
+              },
+              "depth": 2,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Available Modules:",
+                    "slug": "available-modules"
+                  },
+                  "depth": 3
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Resource Factory"
       },
       "depth": 1,
       "outline": [
@@ -236,10 +322,37 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 3,
-            "title": "Available Resource Classes:",
-            "slug": "available-resource-classes"
+            "title": "Options",
+            "slug": "options"
           },
           "depth": 3
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Parameters",
+            "slug": "parameters"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "- shopnode",
+            "slug": "-shopnode"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Available Modules:",
+                "slug": "available-modules"
+              },
+              "depth": 3
+            }
+          ]
         }
       ]
     }, {

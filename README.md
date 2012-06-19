@@ -14,7 +14,48 @@ The code builds on nodeify using restify in the backend for performance and logg
 
 ### Setting up a shopnode session
 
+    var Shopnode = require('shopnode');
+
+    var shopnode = new Shopnode({
+        storeHost:'yourshop.myshopify.com',
+        apiKey:'your-api-key',
+        password:'your-password-if-basic-auth',
+        useBasicAuth:true
+    });
+
 ### Making a call
+
+Before making an api call, it's important to read and understand the [Shopify Api](http://api.shopify.com/). The
+POST/PUT/GET/DELETE methods all have specific parameters for each.
+
+
+#### Returning all webhooks
+
+    shopnode.webhooks.getAll(function (err, req, res, obj) {
+        assert.ifError(err);
+
+        console.log('Server returned: %j', obj.body);
+    });
+
+#### Returning one order with where id = 12345
+
+    shopnode.orders.get({id: 12345}, {/* Empty query string */},
+        function (err, req, res, obj) {
+            assert.ifError(err);
+
+        console.log('Server returned: %j', obj.body);
+        });
+
+Many resources support basic CRUD operations and have the following signatures:
+
+post(params, data, callback);
+put(params, data, callback);
+get(params, queryString, callback);
+getAll(params, queryString, callback);
+
+- **params** is an object which will be used to the generate url
+- **data** is an object which will be seralized in all post and put calls
+- **queryString** is an object which will be converted into a query string (i.e. ?name=value&name2=value2)
 
 ### Additional Resources
 
