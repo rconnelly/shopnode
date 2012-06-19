@@ -17,7 +17,52 @@ shopping cart platform shopify.</p>
 
 <h3 id="setting-up-a-shopnode-session">Setting up a shopnode session</h3>
 
+<pre><code>var Shopnode = require('shopnode');
+
+var shopnode = new Shopnode({
+    storeHost:'yourshop.myshopify.com',
+    apiKey:'your-api-key',
+    password:'your-password-if-basic-auth',
+    useBasicAuth:true
+});
+</code></pre>
+
 <h3 id="making-a-call">Making a call</h3>
+
+<p>Before making an api call, it's important to read and understand the <a href="http://api.shopify.com/">Shopify Api</a>. The
+POST/PUT/GET/DELETE methods all have specific parameters for each.</p>
+
+<h4 id="returning-all-webhooks">Returning all webhooks</h4>
+
+<pre><code>shopnode.webhooks.getAll(function (err, req, res, obj) {
+    assert.ifError(err);
+
+    console.log('Server returned: %j', obj.body);
+});
+</code></pre>
+
+<h4 id="returning-one-order-with-where-id--12345">Returning one order with where id = 12345</h4>
+
+<pre><code>shopnode.orders.get({id: 12345}, {/* Empty query string */},
+    function (err, req, res, obj) {
+        assert.ifError(err);
+
+    console.log('Server returned: %j', obj.body);
+    });
+</code></pre>
+
+<p>Many resources support basic CRUD operations and have the following signatures:</p>
+
+<p>post(params, data, callback);
+put(params, data, callback);
+get(params, queryString, callback);
+getAll(params, queryString, callback);</p>
+
+<ul>
+<li><strong>params</strong> is an object which will be used to the generate url</li>
+<li><strong>data</strong> is an object which will be seralized in all post and put calls</li>
+<li><strong>queryString</strong> is an object which will be converted into a query string (i.e. ?name=value&amp;name2=value2)</li>
+</ul>
 
 <h3 id="additional-resources">Additional Resources</h3>
 
