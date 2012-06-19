@@ -168,22 +168,6 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/common.js",
-        "projectPath": "lib/common.js",
-        "targetPath": "common",
-        "title": "common"
-      },
-      "depth": 1,
-      "outline": []
-    }, {
-      "type": "file",
-      "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "singleLineComment": ["//"],
-          "name": "JavaScript"
-        },
         "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resource.js",
         "projectPath": "lib/resource.js",
         "targetPath": "resource",
