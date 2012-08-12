@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/README.md",
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "firstHeader": {
@@ -191,7 +191,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "commentsOnly": true,
               "name": "Markdown"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/examples/README.md",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/examples/README.md",
             "projectPath": "examples/README.md",
             "targetPath": "examples/README",
             "firstHeader": {
@@ -225,7 +225,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "singleLineComment": ["//"],
                   "name": "JavaScript"
                 },
-                "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/examples/basic/basic.js",
+                "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/examples/basic/basic.js",
                 "projectPath": "examples/basic/basic.js",
                 "targetPath": "examples/basic/basic",
                 "title": "basic"
@@ -245,7 +245,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resource.js",
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resource.js",
         "projectPath": "lib/resource.js",
         "targetPath": "resource",
         "firstHeader": {
@@ -362,7 +362,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resourceFactory.js",
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resourceFactory.js",
         "projectPath": "lib/resourceFactory.js",
         "targetPath": "resourceFactory",
         "firstHeader": {
@@ -471,7 +471,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/applicationCharges.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/applicationCharges.js",
             "projectPath": "lib/resources/applicationCharges.js",
             "targetPath": "resources/applicationCharges",
             "firstHeader": {
@@ -497,7 +497,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/articles.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/articles.js",
             "projectPath": "lib/resources/articles.js",
             "targetPath": "resources/articles",
             "firstHeader": {
@@ -523,7 +523,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/assets.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/assets.js",
             "projectPath": "lib/resources/assets.js",
             "targetPath": "resources/assets",
             "firstHeader": {
@@ -549,7 +549,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/blogs.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/blogs.js",
             "projectPath": "lib/resources/blogs.js",
             "targetPath": "resources/blogs",
             "firstHeader": {
@@ -575,7 +575,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/carts.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/carts.js",
             "projectPath": "lib/resources/carts.js",
             "targetPath": "resources/carts",
             "firstHeader": {
@@ -601,7 +601,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/collects.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/collects.js",
             "projectPath": "lib/resources/collects.js",
             "targetPath": "resources/collects",
             "firstHeader": {
@@ -627,7 +627,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/comments.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/comments.js",
             "projectPath": "lib/resources/comments.js",
             "targetPath": "resources/comments",
             "firstHeader": {
@@ -653,7 +653,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/countries.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/countries.js",
             "projectPath": "lib/resources/countries.js",
             "targetPath": "resources/countries",
             "firstHeader": {
@@ -679,7 +679,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customCollections.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/customCollections.js",
             "projectPath": "lib/resources/customCollections.js",
             "targetPath": "resources/customCollections",
             "firstHeader": {
@@ -705,7 +705,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customerGroups.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/customerGroups.js",
             "projectPath": "lib/resources/customerGroups.js",
             "targetPath": "resources/customerGroups",
             "firstHeader": {
@@ -731,7 +731,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/customers.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/customers.js",
             "projectPath": "lib/resources/customers.js",
             "targetPath": "resources/customers",
             "firstHeader": {
@@ -757,7 +757,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/events.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/events.js",
             "projectPath": "lib/resources/events.js",
             "targetPath": "resources/events",
             "firstHeader": {
@@ -783,7 +783,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/fulfillments.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/fulfillments.js",
             "projectPath": "lib/resources/fulfillments.js",
             "targetPath": "resources/fulfillments",
             "firstHeader": {
@@ -809,7 +809,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/metafields.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/metafields.js",
             "projectPath": "lib/resources/metafields.js",
             "targetPath": "resources/metafields",
             "firstHeader": {
@@ -835,7 +835,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/orders.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/orders.js",
             "projectPath": "lib/resources/orders.js",
             "targetPath": "resources/orders",
             "firstHeader": {
@@ -861,7 +861,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/pages.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/pages.js",
             "projectPath": "lib/resources/pages.js",
             "targetPath": "resources/pages",
             "firstHeader": {
@@ -887,7 +887,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productImages.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/productImages.js",
             "projectPath": "lib/resources/productImages.js",
             "targetPath": "resources/productImages",
             "firstHeader": {
@@ -913,7 +913,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productSearchEngines.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/productSearchEngines.js",
             "projectPath": "lib/resources/productSearchEngines.js",
             "targetPath": "resources/productSearchEngines",
             "firstHeader": {
@@ -939,7 +939,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/productVariants.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/productVariants.js",
             "projectPath": "lib/resources/productVariants.js",
             "targetPath": "resources/productVariants",
             "firstHeader": {
@@ -965,7 +965,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/products.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/products.js",
             "projectPath": "lib/resources/products.js",
             "targetPath": "resources/products",
             "firstHeader": {
@@ -991,7 +991,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/provinces.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/provinces.js",
             "projectPath": "lib/resources/provinces.js",
             "targetPath": "resources/provinces",
             "firstHeader": {
@@ -1017,7 +1017,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/recurringApplicationCharges.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/recurringApplicationCharges.js",
             "projectPath": "lib/resources/recurringApplicationCharges.js",
             "targetPath": "resources/recurringApplicationCharges",
             "firstHeader": {
@@ -1043,7 +1043,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/redirects.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/redirects.js",
             "projectPath": "lib/resources/redirects.js",
             "targetPath": "resources/redirects",
             "firstHeader": {
@@ -1069,7 +1069,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/scriptTags.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/scriptTags.js",
             "projectPath": "lib/resources/scriptTags.js",
             "targetPath": "resources/scriptTags",
             "firstHeader": {
@@ -1095,7 +1095,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/shop.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/shop.js",
             "projectPath": "lib/resources/shop.js",
             "targetPath": "resources/shop",
             "firstHeader": {
@@ -1121,7 +1121,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/smartCollections.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/smartCollections.js",
             "projectPath": "lib/resources/smartCollections.js",
             "targetPath": "resources/smartCollections",
             "firstHeader": {
@@ -1147,7 +1147,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/themes.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/themes.js",
             "projectPath": "lib/resources/themes.js",
             "targetPath": "resources/themes",
             "firstHeader": {
@@ -1173,7 +1173,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/transactions.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/transactions.js",
             "projectPath": "lib/resources/transactions.js",
             "targetPath": "resources/transactions",
             "firstHeader": {
@@ -1199,7 +1199,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "singleLineComment": ["//"],
               "name": "JavaScript"
             },
-            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/resources/webhooks.js",
+            "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/resources/webhooks.js",
             "projectPath": "lib/resources/webhooks.js",
             "targetPath": "resources/webhooks",
             "firstHeader": {
@@ -1227,7 +1227,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "singleLineComment": ["//"],
           "name": "JavaScript"
         },
-        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/nodejify/lib/shopnode.js",
+        "sourcePath": "/Users/ryanconnelly/Documents/quad-apps/shopnode/lib/shopnode.js",
         "projectPath": "lib/shopnode.js",
         "targetPath": "shopnode",
         "firstHeader": {
@@ -1248,6 +1248,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 "slug": "setupparams-available-with"
               },
               "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Helper functions",
+                "slug": "helper-functions"
+              },
+              "depth": 2
             }
           ]
         },
@@ -1261,6 +1269,14 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "level": 2,
             "title": "setupParams available with:",
             "slug": "setupparams-available-with"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Helper functions",
+            "slug": "helper-functions"
           },
           "depth": 2
         }
@@ -1294,7 +1310,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     var currentNodeBottom, currentNodeTop;
     currentNodeTop = currentNode$.offset().top - toc$.children(':visible').first().offset().top;
     currentNodeBottom = currentNodeTop + currentNode$.children('.label').height();
-    if (currentNodeTop < toc$.scrollTop()) toc$.scrollTop(currentNodeTop);
+    if (currentNodeTop < toc$.scrollTop()) {
+      toc$.scrollTop(currentNodeTop);
+    }
     if (currentNodeBottom > toc$.scrollTop() + toc$.height()) {
       return toc$.scrollTop(currentNodeBottom - toc$.height());
     }
@@ -1309,7 +1327,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         currentNode$.removeClass('expanded');
       } else {
         parents$ = currentNode$.parents('li');
-        if (parents$.length > 0) selectNode(parents$.first());
+        if (parents$.length > 0) {
+          selectNode(parents$.first());
+        }
       }
     }
     return focusCurrentNode();
@@ -1324,7 +1344,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
 
   selectNodeByDocumentPath = function(documentPath, headerSlug) {
     var link, urlChunks, _i, _len, _ref;
-    if (headerSlug == null) headerSlug = null;
+    if (headerSlug == null) {
+      headerSlug = null;
+    }
     currentNode$ = fileMap[documentPath];
     if (headerSlug) {
       _ref = currentNode$.find('.outline a');
@@ -1343,14 +1365,16 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
   };
 
   moveCurrentNode = function(up) {
-    var i, newIndex, node, visibleNodes$, _len;
+    var i, newIndex, node, visibleNodes$, _i, _len;
     visibleNodes$ = toc$.find('li:visible:not(.filtered)');
     newIndex = 0;
-    for (i = 0, _len = visibleNodes$.length; i < _len; i++) {
+    for (i = _i = 0, _len = visibleNodes$.length; _i < _len; i = ++_i) {
       node = visibleNodes$[i];
       if (node === currentNode$[0]) {
         newIndex = up ? i - 1 : i + 1;
-        if (newIndex < 0) newIndex = 0;
+        if (newIndex < 0) {
+          newIndex = 0;
+        }
         if (newIndex > visibleNodes$.length - 1) {
           newIndex = visibleNodes$.length - 1;
         }
@@ -1363,7 +1387,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
   visitCurrentNode = function() {
     var labelLink$;
     labelLink$ = currentNode$.children('a.label');
-    if (labelLink$.length > 0) return window.location = labelLink$.attr('href');
+    if (labelLink$.length > 0) {
+      return window.location = labelLink$.attr('href');
+    }
   };
 
   MAX_FILTER_SIZE = 10;
@@ -1379,11 +1405,15 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
   currentQuery = '';
 
   searchNodes = function(queryString) {
-    var c, filtered, matched, matcher, nodeInfo, p, _i, _j, _k, _len, _len2, _len3, _results;
+    var c, filtered, matched, matcher, nodeInfo, p, _i, _j, _k, _len, _len1, _len2, _results;
     queryString = queryString.toLowerCase().replace(/\s+/, '');
-    if (queryString === currentQuery) return;
+    if (queryString === currentQuery) {
+      return;
+    }
     currentQuery = queryString;
-    if (queryString === '') return clearFilter();
+    if (queryString === '') {
+      return clearFilter();
+    }
     matcher = new RegExp(((function() {
       var _i, _len, _results;
       _results = [];
@@ -1403,29 +1433,31 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         filtered.push(nodeInfo);
       }
     }
-    if (matched.length > MAX_FILTER_SIZE) return clearFilter();
+    if (matched.length > MAX_FILTER_SIZE) {
+      return clearFilter();
+    }
     nav$.addClass('searching');
-    for (_j = 0, _len2 = filtered.length; _j < _len2; _j++) {
+    for (_j = 0, _len1 = filtered.length; _j < _len1; _j++) {
       nodeInfo = filtered[_j];
       nodeInfo[1].removeClass('matched-child');
       nodeInfo[1].addClass('filtered');
       clearHighlight(nodeInfo[2]);
     }
     _results = [];
-    for (_k = 0, _len3 = matched.length; _k < _len3; _k++) {
+    for (_k = 0, _len2 = matched.length; _k < _len2; _k++) {
       nodeInfo = matched[_k];
       nodeInfo[1].removeClass('filtered matched-child');
       nodeInfo[1].addClass('matched');
       highlightMatch(nodeInfo[2], queryString);
       _results.push((function() {
-        var _l, _len4, _ref, _results2;
+        var _l, _len3, _ref, _results1;
         _ref = nodeInfo[1].parents('li');
-        _results2 = [];
-        for (_l = 0, _len4 = _ref.length; _l < _len4; _l++) {
+        _results1 = [];
+        for (_l = 0, _len3 = _ref.length; _l < _len3; _l++) {
           p = _ref[_l];
-          _results2.push($(p).addClass('matched-child'));
+          _results1.push($(p).addClass('matched-child'));
         }
-        return _results2;
+        return _results1;
       })());
     }
     return _results;
@@ -1485,7 +1517,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
   };
 
   buildTOCNode = function(node, metaInfo) {
-    var c, children$, discloser$, label$, node$, _i, _len, _ref, _ref2, _ref3;
+    var c, children$, discloser$, label$, node$, _i, _len, _ref, _ref1, _ref2;
     node$ = $("<li class=\"" + node.type + "\"/>");
     switch (node.type) {
       case 'file':
@@ -1496,9 +1528,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     }
     if (((_ref = node.children) != null ? _ref.length : void 0) > 0) {
       children$ = $('<ol class="children"/>');
-      _ref2 = node.children;
-      for (_i = 0, _len = _ref2.length; _i < _len; _i++) {
-        c = _ref2[_i];
+      _ref1 = node.children;
+      for (_i = 0, _len = _ref1.length; _i < _len; _i++) {
+        c = _ref1[_i];
         children$.append(buildTOCNode(c, metaInfo));
       }
       node$.append(children$);
@@ -1508,14 +1540,16 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       return selectNode(node$);
     });
     discloser$ = $('<span class="discloser"/>').prependTo(label$);
-    if (!(((_ref3 = node.children) != null ? _ref3.length : void 0) > 0)) {
+    if (!(((_ref2 = node.children) != null ? _ref2.length : void 0) > 0)) {
       discloser$.addClass('placeholder');
     }
     discloser$.click(function(evt) {
       node$.toggleClass('expanded');
       return evt.preventDefault();
     });
-    if (node.type === 'file') fileMap[node.data.targetPath] = node$;
+    if (node.type === 'file') {
+      fileMap[node.data.targetPath] = node$;
+    }
     appendSearchNode(node$);
     return node$;
   };
@@ -1537,7 +1571,9 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     });
     lastMousedownTimestamp = null;
     nav$.mousedown(function(evt) {
-      if (evt.target !== toggle$[0]) return lastMousedownTimestamp = evt.timeStamp;
+      if (evt.target !== toggle$[0]) {
+        return lastMousedownTimestamp = evt.timeStamp;
+      }
     });
     search$.blur(function(evt) {
       if (evt.timeStamp - lastMousedownTimestamp < 10) {

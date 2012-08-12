@@ -1,7 +1,8 @@
-<!DOCTYPE html><html lang="en"><head><title>examples/basic/basic</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../"><meta name="groc-document-path" content="examples/basic/basic"><meta name="groc-project-path" content="examples/basic/basic.js"><meta name="groc-github-url" content="https://github.com/rconnelly/shopnode"><link rel="stylesheet" type="text/css" media="all" href="../../assets/style.css"><script type="text/javascript" src="../../assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/rconnelly/shopnode/blob/master/examples/basic/basic.js">examples/basic/basic.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">Shopnode</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;../../lib/shopnode&#39;</span><span class="p">);</span>
+<!DOCTYPE html><html lang="en"><head><title>examples/basic/basic</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../../"><meta name="groc-document-path" content="examples/basic/basic"><meta name="groc-project-path" content="examples/basic/basic.js"><meta name="groc-github-url" content="https://github.com/rconnelly/rconnelly"><link rel="stylesheet" type="text/css" media="all" href="../../assets/style.css"><script type="text/javascript" src="../../assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/rconnelly/rconnelly/blob/master/examples/basic/basic.js">examples/basic/basic.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="kd">var</span> <span class="nx">Shopnode</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;../../lib/shopnode&#39;</span><span class="p">);</span>
 <span class="kd">var</span> <span class="nx">assert</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;assert&#39;</span><span class="p">)</span>
     <span class="p">,</span> <span class="nx">nconf</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;nconf&#39;</span><span class="p">)</span>
-    <span class="p">,</span> <span class="nx">util</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;util&#39;</span><span class="p">);</span>
+    <span class="p">,</span> <span class="nx">util</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;util&#39;</span><span class="p">)</span>
+    <span class="p">,</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;fs&#39;</span><span class="p">);</span>
 
 
 <span class="kd">var</span> <span class="nx">log</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;restify&#39;</span><span class="p">).</span><span class="nx">log</span><span class="p">;</span>
@@ -40,30 +41,21 @@
         <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
     <span class="p">});</span>
 
-    <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">post</span><span class="p">({</span>
-        <span class="s2">&quot;customer&quot;</span><span class="o">:</span> <span class="p">{</span>
-            <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Steve&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Lastnameson&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;email&quot;</span><span class="o">:</span> <span class="s2">&quot;steve.lastnameson@lastnamesonco.com&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;addresses&quot;</span><span class="o">:</span> <span class="p">[</span>
-                <span class="p">{</span>
-                    <span class="s2">&quot;address1&quot;</span><span class="o">:</span> <span class="s2">&quot;123 Oak St&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;city&quot;</span><span class="o">:</span> <span class="s2">&quot;Ottawa&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;country&quot;</span><span class="o">:</span> <span class="s2">&quot;CA&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;first_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Mother&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;last_name&quot;</span><span class="o">:</span> <span class="s2">&quot;Lastnameson&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;phone&quot;</span><span class="o">:</span> <span class="s2">&quot;555-1212&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;province&quot;</span><span class="o">:</span> <span class="s2">&quot;ON&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;zip&quot;</span><span class="o">:</span> <span class="s2">&quot;123 ABC&quot;</span>
-                <span class="p">}</span>
-            <span class="p">]</span>
-        <span class="p">}</span>
-    <span class="p">},</span><span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">obj</span><span class="p">){</span>
 
-        <span class="nx">assert</span><span class="p">.</span><span class="nx">ifError</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
+    <span class="nx">fs</span><span class="p">.</span><span class="nx">readFile</span><span class="p">(</span><span class="s1">&#39;./examples/basic/data/customers.json&#39;</span><span class="p">,</span> <span class="s1">&#39;utf8&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">data</span><span class="p">),</span>
+            <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">obj</span><span class="p">)</span> <span class="p">{</span>
+
+                <span class="nx">assert</span><span class="p">.</span><span class="nx">ifError</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %s&#39;</span><span class="p">,</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
+
+                <span class="nx">shopnode</span><span class="p">.</span><span class="nx">customers</span><span class="p">.</span><span class="nx">del</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span><span class="nx">req</span><span class="p">.</span><span class="nx">customer</span><span class="p">.</span><span class="nx">id</span><span class="p">},</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err1</span><span class="p">,</span><span class="nx">req1</span><span class="p">,</span> <span class="nx">res1</span><span class="p">,</span> <span class="nx">obj1</span><span class="p">){</span>
+                    <span class="nx">assert</span><span class="p">.</span><span class="nx">ifError</span><span class="p">(</span><span class="nx">err1</span><span class="p">);</span>
+                    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Server returned: %j&#39;</span><span class="p">,</span> <span class="nx">req</span><span class="p">);</span>
+                <span class="p">});</span>
+
+            <span class="p">});</span>
     <span class="p">});</span>
-
 <span class="p">}</span>
 
 
