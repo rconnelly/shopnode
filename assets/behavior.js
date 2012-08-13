@@ -265,7 +265,18 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 "title": "Resource Constructor",
                 "slug": "resource-constructor"
               },
-              "depth": 2
+              "depth": 2,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 3,
+                    "title": "Default routes",
+                    "slug": "default-routes"
+                  },
+                  "depth": 3
+                }
+              ]
             }, {
               "type": "heading",
               "data": {
@@ -315,7 +326,18 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "title": "Resource Constructor",
             "slug": "resource-constructor"
           },
-          "depth": 2
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "Default routes",
+                "slug": "default-routes"
+              },
+              "depth": 3
+            }
+          ]
         }, {
           "type": "heading",
           "data": {
@@ -410,6 +432,22 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "depth": 3
                 }
               ]
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Initialize basic authentication if required and add header",
+                "slug": "initialize-basic-authentication-if-required-and-add-header"
+              },
+              "depth": 2
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Create the client with a logger and the base url",
+                "slug": "create-the-client-with-a-logger-and-the-base-url"
+              },
+              "depth": 2
             }
           ]
         },
@@ -452,6 +490,22 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "depth": 3
             }
           ]
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Initialize basic authentication if required and add header",
+            "slug": "initialize-basic-authentication-if-required-and-add-header"
+          },
+          "depth": 2
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Create the client with a logger and the base url",
+            "slug": "create-the-client-with-a-logger-and-the-base-url"
+          },
+          "depth": 2
         }
       ]
     }, {
@@ -924,12 +978,33 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 "slug": "product-search-engines",
                 "isFileHeader": true
               },
-              "depth": 1
+              "depth": 1,
+              "children": [
+                {
+                  "type": "heading",
+                  "data": {
+                    "level": 2,
+                    "title": "Disable specific method calls",
+                    "slug": "disable-specific-method-calls"
+                  },
+                  "depth": 2
+                }
+              ]
             },
             "title": "Product Search Engines"
           },
           "depth": 2,
-          "outline": []
+          "outline": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 2,
+                "title": "Disable specific method calls",
+                "slug": "disable-specific-method-calls"
+              },
+              "depth": 2
+            }
+          ]
         }, {
           "type": "file",
           "data": {
