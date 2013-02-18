@@ -29,7 +29,7 @@ The code builds on nodeify using restify in the backend for performance and logg
     var shopnode = new Shopnode({
         storeHost:'yourshop.myshopify.com',
         apiKey:'your-api-key',
-        sharedKey:'your-shared-key'
+        sharedSecret:'your-shared-key'
     });
 
 
